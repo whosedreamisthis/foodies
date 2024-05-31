@@ -6,7 +6,6 @@ export default function Home() {
       <h1 style={{ color: 'white', textAlign: 'center' }}>
         Time to get started!
       </h1>
-      <Link href="./about">About</Link>
     </main>
   );
 }
