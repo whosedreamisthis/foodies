@@ -7,7 +7,7 @@ export default function MealsFormSubmit() {
 
   return (
     // <h1>hello</h1>
-    <button className={classes.button} disable={pending}>
+    <button className={classes.button} disabled={pending}>
       {pending ? 'Submitting...' : 'Share Meal'}
     </button>
   );
