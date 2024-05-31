@@ -5,7 +5,7 @@ import classes from './page.module.css';
 import { getMeals } from '@/lib/meals';
 
 async function Meals() {
-  const meals = getMeals();
+  const meals = await getMeals();
   return <MealsGrid meals={meals} />;
 }
 
