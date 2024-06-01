@@ -43,10 +43,10 @@ export default function ShareMealPage() {
               id="instructions"
               name="instructions"
               rows="10"
-              required
             ></textarea>
           </p>
           <ImagePicker label="Your image" name="image"></ImagePicker>
+
           {state.message && <p>{state.message}</p>}
           <p className={classes.actions}>
             <MealsFormSubmit />
